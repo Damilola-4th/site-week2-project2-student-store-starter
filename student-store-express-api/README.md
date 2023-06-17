@@ -19,8 +19,12 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [x ] Users can click the '-' button on a product cart to decrement that product in the shopping cart.
 - [x ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
 - [x ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can leave ratings for products they have purchased.)
-### Embedded video 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c75d15a6ac614cecb0be03fafe70c1da?sid=cffed381-cdc1-4bef-96a3-7d7fc5e89568" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+### Thumbnail Video Code 
+<a href="https://www.loom.com/share/fac5437212dc48dd86d451e824deec36">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fac5437212dc48dd86d451e824deec36-with-play.gif">
+  </a>
+
+
 
 ### Pair I collaborated with.
 -  Michael Shiwbaran
