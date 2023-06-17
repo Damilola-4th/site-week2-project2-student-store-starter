@@ -1,0 +1,9 @@
+.description {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.description >p {
+    text-align: center;
+}   
