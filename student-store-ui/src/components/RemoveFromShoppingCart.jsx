@@ -1,14 +1,11 @@
 import React from 'react'
 
 const RemoveFromShoppingCart = (event , itemCount,setItemCount, shoppingCart, setShoppingCart ,product) => {
-    const productPrice = product.price
+    const productPrice = Math.round(product.price)
     const productName = product.name
     let productCost
-    if (itemCount > 0){
-        productCost =  product.price * itemCount
-    }else{
-        productCost = product.price
-    }
+    productCost = Math.round(product.price)
+
     const productCount = itemCount > 0? itemCount - 1: 0
     let checkProductInCart = shoppingCart.filter((product, index) => product.productName == productName )
 
@@ -23,10 +20,9 @@ const RemoveFromShoppingCart = (event , itemCount,setItemCount, shoppingCart, se
       }
 
     if (checkProductInCart.length !== 0 ){
-        console.log('if conding in addtoshoppignCart was hit', true)
         checkProductInCart = checkProductInCart[0]
         checkProductInCart.itemCount -=1
-        checkProductInCart.productCost -= product.price
+        checkProductInCart.productCost -= Math.round(product.price)
         let updatedShoppingCart = shoppingCart.slice()
         let productInCartIndex 
         shoppingCart.filter((product, index) => product.name == productName? productInCartIndex = index: "")

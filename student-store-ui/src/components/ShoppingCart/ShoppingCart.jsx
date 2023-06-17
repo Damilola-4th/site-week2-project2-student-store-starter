@@ -7,14 +7,27 @@ const ShoppingCart = (props) => {
   const {subTotal, totalCost} = ShoppingCartTotal(props.shoppingCart)
   return (
     <div>
-      <table>
+      <table className = "Header">
+      <tbody>
+      <tr id = '  highlight'>
+            
+          
+      
+        <th> <div className = "name"> Name </div></th>
+        <th><div className = "quantity"> Quantity </div></th>
+        <th><div className = "unit-price">Unit Price </div></th>
+        <th><div className = "cost">Cost </div></th>
+            
+      </tr>
+      </tbody>
+      </table>
+      <table className = 'Products'>
         <tbody>
-          <tr>
-            <th>Name</th>
-            <th>Quantity</th>
-            <th> Unit Price</th>
-            <th>Cost</th>
-          </tr>
+
+        
+          
+          
+       
         
        
         

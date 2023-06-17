@@ -29,10 +29,9 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [ x ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can leave ratings for products they have purchased.)
 
 ### Thumbnail video Code 
-<a href="https://www.loom.com/share/fac5437212dc48dd86d451e824deec36">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fac5437212dc48dd86d451e824deec36-with-play.gif">
+<a href="https://www.loom.com/share/728f6bfeed0d4327b698503be93957e9">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/728f6bfeed0d4327b698503be93957e9-with-play.gif">
   </a>
-
 
 ## *Week 3* Application Features
 

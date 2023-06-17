@@ -5,11 +5,7 @@ const AddtoShoppingCart = (event , itemCount,setItemCount, shoppingCart, setShop
   const productPrice = product.price
   const productName = product.name
   let productCost
-  if (itemCount > 0){
-    productCost =  product.price * itemCount
-  }else{
-    productCost = product.price
-  }
+  productCost =  Math.round(product.price)
   let checkProductInCart = shoppingCart.filter((product, index) => product.productName == productName )
 
   
@@ -32,7 +28,7 @@ const AddtoShoppingCart = (event , itemCount,setItemCount, shoppingCart, setShop
     const itemObject = {
         itemCount: updatedproductCount,
         productName: productName,
-        productPrice: productPrice,
+        productPrice: Math.round(productPrice),
         productCost: productCost
         
     }

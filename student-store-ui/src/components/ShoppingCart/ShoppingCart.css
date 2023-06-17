@@ -1,15 +1,49 @@
-table, tr, td {
-    border: 7px inset black;
-    border-collapse: collapse;
-    border-spacing: 0;
+table, td {
+   
+    border-spacing: 20px;
+    text-align: center;
 }
-table, tr, th {
-    border: 7px inset black;
-    border-collapse: collapse;
-    border-spacing: 0;
+.Products{
+    background-color: white;
+    width: 320px;
+
 }
+
+.name {
+    width:80px;
+    height: 50px;
+}
+
+.quantity {
+    width:80px;
+    height: 50px;
+}
+
+.unit-price{
+    width:80px;
+    height: 50px;
+}
+
+.cost {
+    width:80px;
+    height: 50px;
+}
+
+.header {
+    width: 320px;
+    
+    border-spacing: 20px;
+    right: 50px;
+   
+    
+}
+
+#highlight:target td {
+    background-color: #FF9900;
+}
+
 
 td:hover {
     border: 6px solid red;
-    border: thick double ;
+ 
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./cartTable.css"
 const CartTable = (props) => {
   const productCount  = props.product.itemCount
   const productName = props.product.productName
@@ -8,10 +8,10 @@ const CartTable = (props) => {
   return (
     <tr>
           
-          <td>{productName}</td>
-          <td>{ productCount }</td>
-          <td>{productPrice}</td>
-          <td>{ productCost }</td>
+          <td><div className = "name"> {productName}</div></td>
+          <td><div className = "quantity"> { productCount }</div></td>
+          <td><div className = "unit-price">{productPrice}</div></td>
+          <td><div className = "cost" >{ productCost }</div></td>
           
          
     </tr>

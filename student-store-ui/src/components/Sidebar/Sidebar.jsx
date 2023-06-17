@@ -19,7 +19,6 @@ export default function Sidebar(props) {
               </span>
             </h3>
             <div className={sidebar? `notification open` : `notification closed`}>
-              No items in cart. Start shopping!
             </div>
             <div className={sidebar? `checkout-form open` : `checkout-form closed`}>
               <h3>Payment Info</h3>
