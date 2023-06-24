@@ -20,11 +20,9 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [x ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
 - [x ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can leave ratings for products they have purchased.)
 ### Thumbnail Video Code 
-<a href="https://www.loom.com/share/fac5437212dc48dd86d451e824deec36">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fac5437212dc48dd86d451e824deec36-with-play.gif">
+<a href="https://www.loom.com/share/cdd554dfd2984367a3ca58ccb5426e59">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/cdd554dfd2984367a3ca58ccb5426e59-with-play.gif">
   </a>
-
-
 
 ### Pair I collaborated with.
 -  Michael Shiwbaran

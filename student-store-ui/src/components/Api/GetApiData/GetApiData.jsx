@@ -7,7 +7,7 @@ const GetApiData = () => {
   
   const fetchApi = async ()  => {
     try {
-        const {data: response} = await axios.get('https://codepath-store-api.herokuapp.com/store')  
+        const {data: response} = await axios.get('http://localhost:3001')  
         setProductData(response.products)
     } catch (error) {
         setIsFetching(false)

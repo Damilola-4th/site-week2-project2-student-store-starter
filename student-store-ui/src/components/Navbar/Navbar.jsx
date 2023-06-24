@@ -12,9 +12,7 @@ export default function Navbar() {
           </Link> 
         </div>
         <div className= "Social-Medias">
-          {/* <svg><path></path></svg>
-          <svg><path></path></svg>
-          <svg><path></path></svg> */}
+
         </div>
         <ul className = "links">
           <li>

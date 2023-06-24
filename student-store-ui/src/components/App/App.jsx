@@ -9,7 +9,7 @@ import Navbar from "../Navbar/Navbar"
 import Hero from "../Hero/Hero"
 import Sidebar from "../Sidebar/Sidebar"
 import SubNavBar from "../subNavbar/subNavbar"
-
+import ViewPurchases from "../ViewPurchases/ViewPurchases"
 import  ProductDetail from "../ProductDetail/ProductDetail"
 import GetApiData from "../Api/GetApiData/GetApiData"
 import notFound from "../notFound/notFound"
@@ -25,6 +25,7 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(true)
   const [shoppingCart, setShoppingCart] = useState([])
   const [checkoutForm, setCheckOutForm] = useState("")
+  const [viewAllReceipts, setViewAllReceipts] = useState([])
 
   const { 
     productData , 
@@ -46,17 +47,30 @@ export default function App() {
       
         
         </div>
-   
-        <Sidebar shoppingCart = { shoppingCart }  />
+        
+        <Sidebar 
+        shoppingCart = { shoppingCart } 
+        setShoppingCart = {setShoppingCart}
+        viewAllReceipts = {viewAllReceipts}
+        setViewAllReceipts = {setViewAllReceipts} />
         <div>
         <Routes>
           <Route path = "/" element = { <Home productData = {productData} setProductData = {setProductData} setShoppingCart = { setShoppingCart } shoppingCart = { shoppingCart } />} />
           <Route path = {`/products/:productId`} element = { <ProductDetail productData = { productData } setProductData = { setProductData } setShoppingCart = { setShoppingCart } shoppingCart = { shoppingCart } /> }  />
           
-          
+          <Route
+            path="/checkout"
+            element={
+              <ViewPurchases
+                viewAllReceipts={viewAllReceipts}
+              />
+            }
+          />
           <Route path= "*" Component= { notFound} /> 
+
         </Routes>
           <br></br>
+
           
           {/* YOUR CODE HERE */}
           <br></br>

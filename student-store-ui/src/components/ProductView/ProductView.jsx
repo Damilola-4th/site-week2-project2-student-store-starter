@@ -11,7 +11,8 @@ const ProductView = (props) => {
 
     const { productId } = useParams()
    
-    const {product }  = getProductForProductView(props.productData, productId)
+    const {product }  = getProductForProductView(productId)
+    console.log(product)
     
     return ( 
       <div>
